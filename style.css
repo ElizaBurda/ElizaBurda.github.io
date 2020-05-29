@@ -1,19 +1,229 @@
-.skills {
-    background-color: lightblue;
-    background-image: url("background.png");
+.center {
+    width: 650px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 35px;
+    font-family: "Calibri", sans-serif;
+    text-align: center;
+}
+
+.colors {
+    font-size: 20px;
+    font-family: "Calibri", sans-serif;
+    text-align: center;
+}
+
+.blueviolet {
+    display: inline-block;
+    background-color: blueviolet;
+    width: 80px;
+    height: 20px;
+}
+
+.light {
+    display: inline-block;
+    background-color: #d2a5fd;
+    width: 80px;
+    height: 20px;
+}
+
+.octopus {
     width: 650px;
     height: 450px;
+    background-color: #b4c7ff;
+    position: relative;
+}
+.head {
+    position: absolute;
+    left: 341px;
+    top: 58px;
+    width: 246px;
+    height: 334px;
+    background-color: blueviolet;
+    border-radius: 0 160px 160px 0;
+}
+.oculus-inside {
+    position: absolute;
+    left: 512px;
+    top: 144px;
+    width: 53px;
+    height: 27px;
+    background-color: #ffffff;
+    border-radius: 0px 30px 0px 30px;
 }
 
-ul {
-    padding-left:310px;
-    padding-top:70px;
-    list-style: none;
+.oculus-outside {
+    position: absolute;
+    left: 524px;
+    top: 149px;
+    width: 31px;
+    height: 16px;
+    background-color: #000000;
+    border-radius: 0px 15px 0px 15px;
 }
 
-li {
-    padding-bottom: 23px;
-    color: white;
-    font-size: 16px;
+.future-leg-1 {
+    position: absolute;
+    left: 162px;
+    top: 58px;
+    width: 184px;
+    height: 40px;
+    background-color: #d2a5fd;
+    border-radius: 30px 0 0 30px;
+}
+
+.future-leg-2 {
+    position: absolute;
+    left: 79px;
+    top: 100px;
+    width: 267px;
+    height: 40px;
+    background-color: #d2a5fd;
+    border-radius: 30px 0 0 30px;
+}
+
+.future-leg-3 {
+    position: absolute;
+    left: 34px;
+    top: 142px;
+    width: 309px;
+    height: 40px;
+    background-color: #d2a5fd;
+    border-radius: 30px 0 0 30px;
+}
+
+.future-leg-4 {
+    position: absolute;
+    left: 79px;
+    top: 184px;
+    width: 264px;
+    height: 40px;
+    background-color: #d2a5fd;
+    border-radius: 30px 0 0 30px;
+}
+
+.future-leg-5 {
+    position: absolute;
+    left: 40px;
+    top: 226px;
+    width: 300px;
+    height: 40px;     
+    background-color: #d2a5fd;
+    border-radius: 30px 0 0 30px;
+}
+
+.future-leg-6 {
+    position: absolute;
+    left: 85px;
+    top: 268px;
+    width: 256px;
+    height: 40px;    
+    background-color: #d2a5fd;
+    border-radius: 30px 0 0 30px;
+}
+
+.future-leg-7 {
+    position: absolute;
+    left: 85px;
+    top: 310px;
+    width: 255px;
+    height: 40px;
+    background-color: #d2a5fd;
+    border-radius: 30px 0 0 30px;
+}
+
+.future-leg-8 {
+    background-color: #d2a5fd;
+    border-radius: 30px 0 0 30px;
+}
+
+.leg-1 {
+    position: absolute;
+    left: 168px;
+    top: 58px;
+    width: 229px;
+    height: 40px;
+    background-color: blueviolet;
+    border-radius: 30px 0 0 30px;
+}
+
+.leg-2 {
+    position: absolute;
+    left: 85px;
+    top: 100px;
+    width: 312px;
+    height: 40px;
+    background-color: blueviolet;
+    border-radius: 30px 0 0 30px;
+}
+
+.leg-3 {
+    position: absolute;
+    left: 40px;
+    top: 142px;
+    width: 354px;
+    height: 40px;
+    background-color: blueviolet;
+    border-radius: 30px 0 0 30px;
+}
+
+.leg-4 {
+    position: absolute;
+    left: 85px;
+    top: 184px;
+    width: 309px;
+    height: 40px;
+    background-color: blueviolet;
+    border-radius: 30px 0 0 30px;
+}
+
+.leg-5 {
+    position: absolute;
+    left: 162px;
+    top: 226px;
+    width: 229px;
+    height: 40px;
+    background-color: blueviolet;
+    border-radius: 30px 0 0 30px;
+}
+
+.leg-6 {
+    position: absolute;
+    left: 283px;
+    top: 268px;
+    width: 109px;
+    height: 40px;
+    background-color: blueviolet;
+    border-radius: 30px 0 0 30px;
+}
+
+.leg-7 {
+    position: absolute;
+    left: 203px;
+    top: 310px;
+    width: 188px;
+    height: 40px;    
+    background-color: blueviolet;
+    border-radius: 30px 0 0 30px;
+}
+
+.leg-8 {
+    position: absolute;
+    left: 283px;
+    top: 352px;
+    width: 109px;
+    height: 40px;   
+    background-color: blueviolet;
+    border-radius: 30px 0 0 30px;
+}
+
+.text {
     font-family: "Calibri", sans-serif;
+    font-size: 20px;
+    color: #ffffff;
+    box-sizing: border-box;
+    padding-top: 5px;
+    padding-left: 10px;
 }
